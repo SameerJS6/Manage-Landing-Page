@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bring Everyone Together - Manage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.css" />
+    <script src="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.js" defer></script>
+    <script src="main.js" defer></script>    
+  </head>
+  <body>
+
+    <!-- Navigation Bar  -->
+
+    <header class="primary-header">
+      <div class="container">
+        <div class="nav-wrapper" >
+        <a href="#" aria-label="Logo">
+          <svg class="icon" width="146" height="26">
+            <use xlink:href="images/logo.svg#logo"></use>
+          </svg>
+          <!-- <img src="images/logo.svg" alt="Manage"> -->
+        </a>
+        <!-- Hamburger Menu  -->
+        <div class="burger" aria-controls="primary-navigation" aria-expanded="false">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <nav class="primary-navigation" id="primary-navigation">
+          <ul role="list" class="nav-list" aria-label="Primary">
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Community</a></li>
+          </ul>
+        </nav>
+        <button class="button | display-sm-none display-md-inline-flex">Get Started</button>
+        
+      </div>
+      </div>
+    </header>
+
+    <!-- First Section   -->
+
+    <main>
+
+      <section class="padding-block-900">
+        <div class="container">
+          <div class="even-columns primary-para-wrapper text-center-sm-only">
+            <div class="flow text-center-sm-only">
+              <h1 class="fs-primary-heading fw-bold width">Bring Everyone Together to build better products.</h1>
+              <p class="text-primary-300">Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.</p>
+              <button class="button">Get Started</button>
+            </div>
+            <div class="hero-pattern | text-center-sm-only">
+              <img src="images/illustration-intro.svg" alt="Nothing that important">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sub-Section  -->
+
+      <section class="padding-block-900"> 
+        <div class="container">
+          <div class="even-columns">
+            <div class="sales-points-blob | flow text-center-sm-only margin-bottom-700">
+              <h2 class="fs-secondary-heading fw-bold width">What's different about Manage?</h2>
+              <p class="text-primary-300">Manage provides all the functionality your team needs, Without the complexity. Our software is tailor-made for modern digital product teams.</p>
+            </div>
+
+            <div>
+              <ul role="list" class="numbered-list | flow">
+                <li><div class="numbered-list-wrapper | flow" style="--flow-spacing: 1.3em"><h3 class="numbered-list-title | fs-600 fw-bold ">Track company-wide progress</h3>
+                <p class="numbered-list-body | text-primary-300" data-width="full">See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again.</p></div></li>
+
+                <li><div class="numbered-list-wrapper | flow" style="--flow-spacing: 1.3em"><h3 class="numbered-list-title | fs-600 fw-bold">Advanced built-in reports</h3>
+                <p class="numbered-list-body | text-primary-300" data-width="special">Set internal delivery estimates and track progress toward company goals. Our customisable dashboard helps you build out the reports you need to keep key sstakeholders informed.</p></div></li>
+
+                <li><div class="numbered-list-wrapper | flow" style="--flow-spacing: 1.3em"><h3 class="numbered-list-title | fs-600 fw-bold">Everything you need inone place</h3>
+                <p class="numbered-list-body | text-primary-300" data-width="full">Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers an all-in-one-team productivity solution.</p></div></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonial or Carousel  -->
+
+      <section class="carousel | padding-block-800 text-center">
+        <h2 class="fs-primary-heading fw-bold ">What they've said</h2>
+        <!-- Carousel Here -->
+
+         <ul class="slider">
+          <li>
+            <img src="./images/avatar-anisha.png" alt="Anisha Li Profile">
+
+            <div class="slider-content | flow" style="--flow-spacer: 1rem;">
+              <h2 class="fw-bold">Anisha Li</h2>
+              <p class="text-primary-300">“Manage has supercharged our team’s workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.”</p>
+            </div>
+          </li>
+
+          <li>
+            <img src="./images/avatar-ali.png" alt="Ali Bravo">
+
+            <div class="slider-content | flow " style="--flow-spacer: 1rem;">
+              <h2 class="fw-bold">Ali Bravo</h2>
+              <p class="text-primary-300" data-width="special">“We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone is much more focused.” </p>
+            </div>
+          </li>
+
+          <li>
+            <img src="./images/avatar-richard.png" alt="Richard Profile">
+
+            <div class="slider-content | flow" style="--flow-spacer: 1rem;">
+              <h2 class="fw-bold">Richard Watts</h2>
+              <p class="text-primary-300">“Manage allows us to provide structure and process. It keeps us organized and focused. I can’t stop recommending them to everyone I talk to!”</p>
+            </div>
+          </li>
+
+          <li>
+            <img src="./images/avatar-shanai.png" alt="Shanai Gough Profile">
+
+            <div class="slider-content | flow" style="--flow-spacer: 1rem;">
+              <h2 class="fw-bold">Shanai Gough</h2>
+              <p class="text-primary-300">“Their software allows us to track, manage and collaborate on our projects from anywhere. It keeps the whole team in-sync without being intrusive.”</p>
+            </div>
+          </li>
+        </ul>
+
+        <button class="button">Get Started</button>
+      </section>
+
+      <!-- Call to action or cta  -->
+
+      <section class="cta | margin-top-900 padding-block-900 bg-accent-400 text-neutral-100">
+        <div class="container">
+          <div class="even-columns | vertical-align-center ">
+            <div><p class=" fs-primary-heading fw-bold" data-width="special-2">Simplify how your team works today.</p></div>
+            <div class="justify-self-end-md"><button class="button" data-type="inverted">Get Started</button></div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Footer  -->
+
+    <footer class="primary-footer | padding-block-700 bg-neutral-900 text-accent-100">
+      <div class="container">
+        <div class="primary-footer-wrapper">
+          <!-- <div class="primary-footer-logo-socials"> -->
+            <a class="primary-footer-logo" href="#" aria-label="Footer-Logo">
+              <svg class="icon" width="146" height="26">
+                <use xlink:href="images/logo.svg#logo"></use>
+              </svg>
+            </a>
+            
+
+            <ul role="list" aria-label="Social lists" class="socials">
+              <li><a aria-label="Facebook" href="https://www.facebook.com/" target="_blank">
+                <svg class="social-icon" > 
+                  <use xlink:href="images/icon-facebook.svg#icon-facebook"></use>
+                </svg>
+              </a></li>
+
+              <li><a aria-label="Youtube" href="https://www.youtube.com/" target="_blank">
+                <svg class="social-icon" >
+                  <use xlink:href="images/icon-youtube.svg#icon-youtube"></use>
+                </svg>
+              </a></li>
+
+              <li><a aria-label="Instagram" href="https://www.instagram.com/" target="_blank">
+                <svg class="social-icon" >
+                  <use xlink:href="images/icon-instagram.svg#icon-instagram"></use>
+                </svg>
+              </a></li>
+
+              <li><a aria-label="Pinterest" href="https://in.pinterest.com/" target="_blank">
+                <svg class="social-icon" >
+                  <use xlink:href="images/icon-pinterest.svg#icon-pinterest"></use>
+                </svg>
+              </a></li>
+
+              <li><a aria-label="Twitter" href="https://twitter.com/" target="_blank">
+                <svg class="social-icon" >
+                  <use xlink:href="images/icon-twitter.svg#icon-twitter"></use>
+                </svg>
+              </a></li>
+            </ul>
+          <!-- </div> -->
+
+          <div class="primary-footer-nav">
+            <nav class="footer-nav">
+              <ul role="list" aria-label="footer" class="flow" style="--flow-spacing: 0.8rem;">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">products</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          
+            <form class="primary-footer-form" action="no-form.php">
+              <input type="email" name="email" id="">
+              <button type="submit" class="button" data-shadow="none">Go</button>
+            </form>
+            <p class="footer-form-copytext | text-primary-300">Copyright 2022. All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+ 
+  </body>
+</html>
