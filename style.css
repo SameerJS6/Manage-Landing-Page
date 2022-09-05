@@ -739,7 +739,7 @@ input:where([type="email"], [type="text"]) {
 @media (max-width: 50em) {
   .nav-wrapper{
     animation: opa 2s ease;
-    animation-delay: 150ms;
+    animation-delay: 250ms;
   }
 }
 
