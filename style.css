@@ -347,6 +347,7 @@ span{
     inset: 0;
     background-image: linear-gradient(rgb(0 0 0 / 0), rgb(0 0 0 / 0.8));
     animation: grad 1s ease forwards;
+    height: 100%;
   }
 
   /* Gradient Animation  */
