@@ -736,6 +736,12 @@ input:where([type="email"], [type="text"]) {
     animation-delay: 150ms;
   }
 }
+@media (max-width: 50em) {
+  .nav-wrapper{
+    animation: opa 2s ease;
+    animation-delay: 150ms;
+  }
+}
 
 .left-animation{
   animation: left 2s ease;
