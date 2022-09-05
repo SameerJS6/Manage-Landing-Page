@@ -70,13 +70,13 @@ navToggle.addEventListener("click", () => {
     adaptiveHeight: false,
     dots: true,
     arrows: false,
-    autoplay: false,
+    autoplay: true,
     centerMode: true,
     responsive: {
     
       480: {
         dots: false, // dots enabled 480px and up.
-        autoplay: true
+        // autoplay: true
       }
     }
   });
